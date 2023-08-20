@@ -1,0 +1,26 @@
+# {{cookiecutter.directory_name}}/.gitignore
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyc
+venv/
+*.venv
+env/
+.ipynb_checkpoints
+data/*.csv
+data/*.tsv
+data/*.xlsx
+models/*.h5
+models/*.pkl
+logs/
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
